@@ -2,7 +2,7 @@ import React from "react";
 
 export const Last = () => {
   return (
-    <div className="w-full py-20 px-6 flex flex-col items-center  max-sm:w-[343px] max-sm:h-[516px]">
+    <div className="w-full py-20 px-6 flex flex-col items-center  max-sm:w-[593px] max-sm:h-[516px]">
       <div className="mb-4">
         <div className="rounded-xl px-4 py-2 bg-gray-200 text-sm font-medium">
           Get in touch

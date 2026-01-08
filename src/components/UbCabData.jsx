@@ -4,10 +4,10 @@
 //   return (
 //     <div className="w-full h-[1140px] pt-24 pr-20 pb-24 pl-20 flex items-center justify-center max-sm:w-full max-sm:h-[1308px] max-sm:pt-14 max-sm:pr-4 max-sm:pb-14 max-sm:pl-4">
 //       <div className="w-[1280px] h-[948px] pr-8 pl-8 flex flex-col gap-12 items-center max-sm:w-[343px] max-sm:h-[1180px] max-sm:flex max-sm:flex-col max-sm:gap-10 ">
-//         <div className="w-[1216px] h-[72px] flex flex-col gap-4 items-center max-sm:gap-6  ">
-//           <div className="w-[1216px] h-[28px] flex items-center justify-center ">
-//             <div className="w-[115px] h-[28px] rounded-xl pt-1 pr-5 pb-1 pl-5 text-[14px]  font-medium bg-stone-300 ">
-//               Experience
+//         <div className="w-[1216px] h-[72px] flex flex-col gap-4 items-center max-sm:gap-6 max-sm:mt-[80px]">
+//           <div className="w-[1216px] h-[28px] flex items-center justify-center">
+//             <div className="w-[85px] h-[28px] rounded-xl pt-1 pr-5 pb-1 pl-5 text-[14px]  font-medium bg-stone-300">
+//               Work
 //             </div>
 //           </div>
 //           <div className="w-[1216px] h-[28px] flex items-center justify-center">
@@ -41,7 +41,7 @@
 //                   • Sed quis justo ac magna.
 //                 </div>
 //                 <div className="w-[384px] h-[48px] font-normal text-[16px]max-sm:w-[279px]">
-//                   • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+//                   • Lorem ipsum dolor sit amet, consectetur.
 //                 </div>
 //               </div>
 //             </div>
@@ -109,133 +109,150 @@
 //   );
 // };
 
-// export const UbCabData = () => {
-//   return (
-//     <div className="w-full h-[560px] flex items-center justify-center pt-24 pr-20 pb-24 pl-50 max-sm:w-[375px] max-sm:h-[916px] ">
-//       <div className="w-[1280px] h-[368px] flex items-center flex-col gap-12 pr-8 pl-8">
-//         <div className="w-[1216px] h-[72px] flex flex-col items-center gap-4">
-//           <div className="w-[1216px] h-[28px] flex items-center justify-center">
-//             <div className="w-[105px] h-[28px] mt-[10px] rounded-xl pt-1 pr-5 pb-1 pl-5 font-medium text-[14px] bg-stone-300">
-//               Experience
-//             </div>
-//           </div>
-//           <div className="w-[576px] h-[28px] font-thin text-[20px] flex items-center justify-center ">
-//             Some of the noteworthy projects I have built:
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-// {
-/* import { Run } from "./Cab";
+import React from "react";
 
 export const UbCabData = () => {
   return (
-    <div className="w-full h-[1848px] pt-24 pr-20 pb-24 pl-20  flex items-center justify-center  max-sm:w-[375px] max-sm:h-[908px] max-sm:pr-4 max-sm:pl-10  ">
-      <div className="w-[1280px] h-[1656px] pr-8 pl-8 flex flex-col gap-12 max-sm:w-[343px] max-sm:h-[680px] max-sm:gap-10">
-        <div className="w-[1216px] h-[72px] flex flex-col gap-4  items-center justify-center gap-6">
-          <div className="w-[1216px] h-[28px] flex items-center justify-center">
-            <div className="w-[75px] h-[28px] rounded-xl pt-1 pr-5 pb-1 pl-5 bg-stone-300  font-medium text-[14px]  ">
-              Workd
-            </div>
-          </div>
-          <div className="w-[1216px] h-[28px] flex items-center justify-center">
-            <div className="w-[576px] h-[28px] font-normal text-[20px] flex items-center justify-center  max-sm:w-[343px] max-sm:h-[56px] max-sm:text-center :">
-              Some of the noteworthy projects I have built:
-            </div>
-          </div>
+    <section className="w-full py-24 px-20 max-sm:px-4">
+      <div className="max-w-[1280px] mx-auto flex flex-col gap-16">
+
+        {/* Header */}
+        <div className="flex flex-col items-center gap-4">
+          <span className="px-5 py-1 rounded-xl bg-stone-300 text-sm font-medium">
+            Work
+          </span>
+          <p className="text-[20px] text-center max-sm:text-base">
+            Some of the noteworthy projects I have built:
+          </p>
         </div>
-        <div className="w-[1152px] h-[480px] rounded-xl flex flex-row shadow-2xl max-sm:w-[375px] max-sm:flex max-sm:flex-col max-sm:h-[772px] m">
-          <div className="w-[576px] h-[480px] p-12 flex items-center justify-center max-sm:w-[359px] ">
-            <img
-              className="w-[480px] h-[384px] rounded-xl max-sm:w-[290px] max-sm:h-[206px]   "
-              src="oc.png"
-              alt=""
-            />
-          </div>
-          <div className="w-[576px] h-[480px] p-12 flex flex-col gap-6 ">
-            <div className="w-[480px] h-[28px] font-semibold text-[20px] ">
-              UBCab
+
+        {/* ===== CARD 1 ===== */}
+        <div className="bg-white rounded-xl shadow-2xl p-8">
+          <div className="grid grid-cols-2 gap-12 items-center max-sm:grid-cols-1">
+
+            {/* Image */}
+            <div className="bg-gray-100 rounded-lg p-6 flex justify-center">
+              <img src="2222.png" alt="UBCab" className="max-w-full" />
             </div>
-            <div className="w-[480px] h-[96px] font-normal text-[16px] max-sm:w-[330px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia curae.
+
+            {/* Content */}
+            <div className="flex flex-col gap-4">
+              <h3 className="text-xl font-semibold">UBCab</h3>
+              <p className="text-gray-600 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas nec urna ac tellus volutpat viverra.
+              </p>
+
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "React",
+                  "Next.js",
+                  "Typescript",
+                  "Nest.js",
+                  "PostgreSQL",
+                  "Tailwindcss",
+                  "Figma",
+                  "Cypress",
+                  "Storybook",
+                  "Git",
+                ].map((t) => (
+                  <span
+                    key={t}
+                    className="px-3 py-1 bg-gray-200 rounded-full text-xs"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
             </div>
-            <div className="w-[480px] h-[100px] flex flex-wrap gap-2 ">
-              {Run.map((item) => (
-                <div className=" w-fit h-[28px] rounded-xl pt-1 pr-5 pb-1 pl-5 flex items-center justify-center ">
-                  <div className="max-w-[112px] min-w-[60px] h-[20px] font-normal justify-center items-center text-[14px]  bg-stone-700 rounded-2xl shadow-xl ">
-                    {item.name}
-                  </div>
-                </div>
-              ))}
-            </div>
-            <img className="w-[36px] h-[36px] " src="Icon Button.png" alt="" />
           </div>
         </div>
 
-        <div className="w-[1152px] h-[480px] rounded-xl flex flex-row shadow-2xl">
-          <div className="w-[576px] h-[480px] p-12 flex flex-col gap-6 ">
-            <div className="w-[480px] h-[28px] font-semibold text-[20px] ">
-              Mentorhub
+        {/* ===== CARD 2 ===== */}
+        <div className="bg-white rounded-xl shadow-2xl p-8">
+          <div className="grid grid-cols-2 gap-12 items-center max-sm:grid-cols-1">
+
+            {/* Content */}
+            <div className="flex flex-col gap-4 max-sm:order-1">
+              <h3 className="text-xl font-semibold">Mentorhub</h3>
+              <p className="text-gray-600 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum ante ipsum primis in faucibus.
+              </p>
+
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "React",
+                  "Next.js",
+                  "Typescript",
+                  "Nest.js",
+                  "PostgreSQL",
+                  "Tailwindcss",
+                  "Figma",
+                  "Cypress",
+                  "Storybook",
+                  "Git",
+                ].map((t) => (
+                  <span
+                    key={t}
+                    className="px-3 py-1 bg-gray-200 rounded-full text-xs"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
             </div>
-            <div className="w-[480px] h-[96px] font-normal text-[16px] max-sm:w-[330px] ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia curae.
+
+            {/* Image */}
+            <div className="bg-gray-900 rounded-lg p-6 flex justify-center max-sm:order-2">
+              <img src="oc.png" alt="Mentorhub" className="max-w-full" />
             </div>
-            <div className="w-[480px] h-[100px] flex flex-wrap gap-2 ">
-              {Run.map((item) => (
-                <div className="w-fit  max-h-[28px] rounded-xl pt-1 pr-5 pb-1 pl-5  flex items-center justify-center">
-                  <div className="max-w-[120px]  h-[20px]  font-normal text-[14px] justify-center items-center shadow-2xl bg-stone-300 rounded-2xl">
-                    {item.name}
-                  </div>
-                </div>
-              ))}
-            </div>
-            <img className="w-[36px] h-[36px] " src="Icon Button.png" alt="" />
-          </div>
-          <div className="w-[576px] h-[480px] p-12 flex items-center justify-center">
-            <img
-              className="w-[480px] h-[384px] rounded-xl "
-              src="122.png"
-              alt=""
-            />
           </div>
         </div>
 
-        <div className="w-[1152px] h-[480px] rounded-xl flex flex-row shadow-2xl">
-          <div className="w-[576px] h-[480px] p-12 flex items-center justify-center">
-            <img
-              className="w-[480px] h-[384px] rounded-xl "
-              src="2222.png"
-              alt=""
-            />
-          </div>
-          <div className="w-[576px] h-[480px] p-12 flex flex-col gap-6  ">
-            <div className="w-[480px] h-[28px] font-semibold text-[20px]">
-              iToim
+        {/* ===== CARD 3 ===== */}
+        <div className="bg-white rounded-xl shadow-2xl p-8">
+          <div className="grid grid-cols-2 gap-12 items-center max-sm:grid-cols-1">
+
+            {/* Content */}
+            <div className="flex flex-col gap-4 max-sm:order-1">
+              <h3 className="text-xl font-semibold">iToim</h3>
+              <p className="text-gray-600 text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas nec urna ac tellus volutpat viverra.
+              </p>
+
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "React",
+                  "Next.js",
+                  "Typescript",
+                  "Nest.js",
+                  "PostgreSQL",
+                  "Tailwindcss",
+                  "Figma",
+                  "Cypress",
+                  "Storybook",
+                  "Git",
+                ].map((t) => (
+                  <span
+                    key={t}
+                    className="px-3 py-1 bg-gray-200 rounded-full text-xs"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
             </div>
-            <div className="w-[480px] h-[96px] font-normal text-[16px] ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
-              in faucibus orci luctus et ultrices posuere cubilia curae.
+
+            {/* Image */}
+            <div className="bg-gray-100 rounded-lg p-6 flex justify-center max-sm:order-2">
+              <img src="logo.png" alt="iToim" className="max-w-full" />
             </div>
-            <div className="w-[480px] h-[100px] flex flex-wrap gap-2 ">
-              {Run.map((item) => (
-                <div className="w-fit h-[28px] rounded-xl pt-1 pr-5 pb-1 pl-5 bg-stone-300 flex items-center justify-center">
-                  <div className="h-[20px] font-normal text-[14px] ">
-                    {item.name}
-                  </div>
-                </div>
-              ))}
-            </div>
-            <img className="w-[36px] h-[36px] " src="Icon Button.png" alt="" />
           </div>
         </div>
+
       </div>
-    </div>
+    </section>
   );
-}; */
+};

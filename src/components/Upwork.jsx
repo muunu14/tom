@@ -2,11 +2,11 @@ import React from "react";
 
 export const Upwork = () => {
   return (
-    <div className="w-full h-[1140px] pt-24 pr-20 pb-24 pl-20 flex items-center justify-center  max-sm:w-[375px] max-sm:h-[1616px]   max-sm:pr-4 max-sm:pl-40">
-      <div className="w-[1280px] h-[948px] pr-8 pl-8 flex flex-col gap-12 items-center max-sm:w-[343px] max-sm:h-[680px] max-sm:flex max-sm:flex-col max-sm:gap-10  ">
+    <div className="w-full h-[1140px] pt-24 pr-20 pb-24 pl-20 flex items-center justify-center  max-sm:w-[375px] max-sm:h-[1616px]   max-sm:pr-4 max-sm:pl-40 max-sm:ml-[40px]">
+      <div className="w-[1280px] h-[948px] pr-8 pl-8 flex flex-col gap-12 items-center max-sm:w-[343px] max-sm:h-[1580px] max-sm:flex max-sm:flex-col max-sm:gap-10  ">
         <div className="w-[1216px] h-[72px] flex flex-col gap-4 items-center max-sm:gap-6  ">
-          <div className="w-[1216px] h-[28px] flex items-center justify-center ">
-            <div className="w-[115px] h-[28px] rounded-xl pt-1 pr-5 pb-1 pl-5 text-[14px]  font-medium  bg-stone-300">
+          <div className="w-[1216px] h-[28px] flex items-center justify-center">
+            <div className="w-[115px] h-[28px] rounded-xl pt-1 pr-5 pb-1 pl-5 text-[14px]  font-medium bg-stone-300 max ">
               Experience
             </div>
           </div>
