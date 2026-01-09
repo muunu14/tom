@@ -2,10 +2,9 @@ import React from "react";
 
 export const UbCabData = () => {
   return (
-    <section className="w-full  py-24 max-sm">
+    <section className="w-full  py-10 ">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-8 lg:px-20">
         <div className="flex flex-col gap-16 ">
-          {/* Header */}
           <div className="flex flex-col items-center gap-4 text-center">
             <span className="px-5 py-1 rounded-xl bg-stone-300 text-sm font-medium">
               Work
@@ -14,8 +13,7 @@ export const UbCabData = () => {
               Some of the noteworthy projects I have built:
             </p>
           </div>
-          {/* ===== CARD 1 ===== */}
-          <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 max-sm:w-[443px] max-sm:h-[700px] max-sm:ml-[80px]">
+          <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 max-sm:w-[443px] max-sm:h-[700px] max-sm:ml-[60px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <img src="oc.png" alt="UBCab" className="w-full rounded-lg" />
               <div className="flex flex-col gap-5 w-[400px] mb-[100px]">
@@ -52,19 +50,17 @@ export const UbCabData = () => {
               </div>
             </div>
           </div>
-          {/* ===== CARD 2 ===== */}
-          <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 max-sm:w-[443px] max-sm:ml-[80px]">
+          <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 max-sm:w-[443px] max-sm:ml-[60px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-              <div className="flex flex-col gap-4 order-2 lg:order-1">
+              <div className="flex flex-col gap-4 order-2 lg:order-1 h-[300px] w-[390px] ">
                 <h3 className="text-xl font-semibold">Mentorhub</h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-600 text-sm ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
                   ipsum primis in faucibus orci luctus et ultrices posuere
                   cubilia curae.
                 </p>
-
-                <div className="flex flex-wrap gap-2 w-[300px]">
+                <div className="flex flex-wrap gap-3 w-[400px]">
                   {[
                     "React",
                     "Next.js",
@@ -87,8 +83,6 @@ export const UbCabData = () => {
                 </div>
                 <img className="w-[24px] h-[24px]" src="icon.png" alt="" />
               </div>
-
-              {/* Image */}
               <img
                 src="122.png"
                 alt="Mentorhub"
@@ -96,14 +90,9 @@ export const UbCabData = () => {
               />
             </div>
           </div>
-
-          {/* ===== CARD 3 ===== */}
-          <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 max-sm:w-[443px] max-sm:ml-[80px]">
+          <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 max-sm:w-[443px] max-sm:ml-[60px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-              {/* Image */}
               <img src="2222.png" alt="iToim" className="w-full rounded-lg" />
-
-              {/* Content */}
               <div className="flex flex-col gap-4">
                 <h3 className="text-xl font-semibold">iToim</h3>
                 <p className="text-gray-600 text-sm">
@@ -112,7 +101,6 @@ export const UbCabData = () => {
                   ipsum primis in faucibus orci luctus et ultrices posuere
                   cubilia curae.
                 </p>
-
                 <div className="flex flex-wrap gap-2 w-[300px]">
                   {[
                     "React",

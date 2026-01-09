@@ -5,10 +5,10 @@ export const Icon = () => {
     <div className="w-full h-[556px] flex flex-row gap-[80px] justify-center pt-[96px] pr-[80px] pb-[96px] pl-[80px] max-sm:h-[904px] max-sm:pt-16 max-sm:pr-4 max-sm:pb-16 max-sm:pl-4 max-sm:flex max-sm:flex-col-reverse">
       <div className="w-[600px] h-[364px] flex flex-col gap-12 max-sm:w-full max-sm:h-[428px] max-sm:flex max-sm:mr-[90px] ">
         <div className="w-[600px] h-[176px] flex flex-col gap-2 max-sm:w-full max-sm:h-[340px] max-sm:flex max-sm:flex-col max-sm:gap-2 ">
-          <div className="w-[400px] h-[72px] font-bold text-[60px]  max-sm:w-[250px] max-sm:h-[40px] max-sm:text-[36px] max-sm:font-semibold ">
+          <div className="w-[400px] h-[72px] font-bold text-[60px] mb-[19px]  max-sm:w-[250px] max-sm:h-[40px] max-sm:text-[36px] max-sm:font-bold ">
             Hi, I’m Tom 👋
           </div>
-          <p className="w-[600px] h-[96px] font-normal gap:24 text-[16px]  max-sm:w-full max-sm:h-[192px] max-sm:font-normal max-sm:text-[16px]">
+          <p className="w-[600px] h-[96px] font-normal gap:24 text-[16px]  max-sm:w-[530px] max-sm:h-[100px] max-sm:font-normal max-sm:text-[16px] max-sm:mt-[45px]">
             I specialize in full stack development, particularly with React.js
             and Node.js. My main goal is to create exceptional digital
             experiences that are fast, visually appealing, and accessible to
