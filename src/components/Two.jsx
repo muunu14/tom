@@ -3,7 +3,7 @@ import React from "react";
 export const Two = () => {
   return (
     <section className="w-full flex justify-center px-4 py-16 md:px-20">
-      <div className="w-full max-w-[1280px] flex flex-col gap-12">
+      <div className="w-full  flex flex-col gap-12">
         <div className="flex justify-center">
           <span className="px-5 py-1 text-sm font-medium rounded-xl bg-stone-300">
             About me
@@ -13,9 +13,9 @@ export const Two = () => {
           <img
             src="Container.png"
             alt=""
-            className="w-full max-w-[400px] h-auto"
+            className="w-full  h-auto"
           />
-          <div className="w-full max-w-[584px] flex flex-col gap-6">
+          <div className="w-full  flex flex-col gap-6">
 
             <h2 className="text-2xl md:text-2xl font-semibold">
               Curious about me? Here you have it:
