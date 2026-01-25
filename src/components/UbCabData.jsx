@@ -46,7 +46,7 @@ export const UbCabData = () => {
                     </span>
                   ))}
                 </div>
-                <img className="w-[24px] h-[24px]" src="icon.png" alt="" />
+                <img className="w-[24px] h-[24px]" src="Icon.png" alt="" />
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ export const UbCabData = () => {
                     </span>
                   ))}
                 </div>
-                <img className="w-[24px] h-[24px]" src="icon.png" alt="" />
+                <img className="w-[24px] h-[24px]" src="Icon.png" alt="" />
               </div>
               <img
                 src="122.png"
@@ -122,7 +122,7 @@ export const UbCabData = () => {
                     </span>
                   ))}
                 </div>
-                <img className="w-[24px] h-[24px]" src="icon.png" alt="" />
+                <img className="w-[24px] h-[24px]" src="Icon.png" alt="" />
               </div>
             </div>
           </div>
