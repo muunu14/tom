@@ -2,14 +2,14 @@ import React from "react";
 
 export const Last = () => {
   return (
-    <div className="w-full py-20 px-6 flex flex-col items-center  max-sm:w-[593px] max-sm:h-[516px]">
+    <div className="w-full py-20 px-6 flex flex-col items-center  max-sm:h-[516px]">
       <div className="mb-4">
         <div className="rounded-xl px-4 py-2 bg-gray-200 text-sm font-medium">
           Get in touch
         </div>
       </div>
 
-      <p className="max-w-xl text-center text-gray-600 font-light text-lg mb-10">
+      <p className="w-full text-center text-gray-600 font-light text-lg mb-10">
         What's next? Feel free to reach out to me if you're looking for a
         developer, have a query, or simply want to connect.
       </p>
