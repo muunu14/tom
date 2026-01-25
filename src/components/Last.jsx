@@ -17,13 +17,13 @@ export const Last = () => {
       <div className="flex items-center gap-3 mb-4">
         <img src="zhia.png" className="w-6" />
         <h1 className="text-3xl font-bold">tom@pinecone.mn</h1>
-        <img src="/icono.png" className="w-6 cursor-pointer" />
+        <img src="cono.png" className="w-6 cursor-pointer" />
       </div>
 
       <div className="flex items-center gap-3 mb-10">
         <img src="zhia.png" className="w-6" />
         <h1 className="text-3xl font-bold">+97688112233</h1>
-        <img src="/icono.png" className="w-6 cursor-pointer" />
+        <img src="icono.png" className="w-6 cursor-pointer" />
       </div>
       <p className="text-gray-600 text-sm mb-3">
         You may also find me on these platforms!
