@@ -13,7 +13,7 @@ export const Two = () => {
           <img
             src="Container.png"
             alt=""
-            className="w-full  h-auto"
+            className="w-[900px]  h-auto"
           />
           <div className="w-full  flex flex-col gap-6">
 
