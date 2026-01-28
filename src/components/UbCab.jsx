@@ -1,12 +1,12 @@
 import React from "react";
 
-export const UbCabData = () => {
+export const UbCab = () => {
   return (
-    <section className="w-full  py-10 ">
+    <div className="w-full  py-10 ">
       <div className=" mx-auto px-4 sm:px-8 lg:px-20">
         <div className="flex flex-col gap-16  items-center justify-center ">
           <div className="flex flex-col items-center gap-4 text-center">
-            <span className="px-5 py-1 rounded-xl bg-stone-300 text-sm font-medium">
+            <span className="px-5 py-1 rounded-xl bg-stone-200 text-sm font-medium">
               Work
             </span>
             <p className="text-lg sm:text-xl">
@@ -40,21 +40,21 @@ export const UbCabData = () => {
                   ].map((t) => (
                     <span
                       key={t}
-                      className="px-3 py-1 bg-gray-200 rounded-full text-xs"
+                      className="px-3 py-1 bg-stone-200 rounded-full text-xs"
                     >
                       {t}
                     </span>
                   ))}
                 </div>
-                <img className="w-[24px] h-[24px]" src="Icon.png" alt="" />
+                <img className="w-[24px] h-[24px]" src="icon.png" alt="" />
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 h-[400px]  w-[1000px] max-sm:w-[350px] max-sm:h-[650px]">
+          <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8  w-[1000px] max-sm:w-[350px] max-sm:h-[650px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div className="flex flex-col gap-4 order-2 lg:order-1 h-[300px]  ">
                 <h3 className="text-xl font-semibold">Mentorhub</h3>
-                <p className="text-gray-600 text-sm mt-[20px] ">
+                <p className="text-gray-600 text-sm ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
                   ipsum primis in faucibus orci luctus et ultrices posuere
@@ -75,13 +75,13 @@ export const UbCabData = () => {
                   ].map((t) => (
                     <span
                       key={t}
-                      className="px-3 py-1 bg-gray-200 rounded-full text-xs"
+                      className="px-3 py-1 bg-stone-200 rounded-full text-xs"
                     >
                       {t}
                     </span>
                   ))}
                 </div>
-                <img className="w-[24px] h-[24px]" src="Icon.png" alt="" />
+                <img className="w-[24px] h-[24px]" src="icon.png" alt="" />
               </div>
               <img
                 src="122.png"
@@ -116,18 +116,19 @@ export const UbCabData = () => {
                   ].map((t) => (
                     <span
                       key={t}
-                      className="px-3 py-1 bg-gray-200 rounded-full text-xs"
+                      className="px-3 py-1 bg-stone-200 rounded-full text-xs"
                     >
                       {t}
                     </span>
                   ))}
                 </div>
-                <img className="w-[24px] h-[24px]" src="Icon.png" alt="" />
+                <img className="w-[24px] h-[24px]" src="icon.png" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
+

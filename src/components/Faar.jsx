@@ -23,7 +23,7 @@ export const Data = [
     name: "Next.js",
   },
   {
-    image: "icon-express.png",
+    image: "express.png",
     name: "Express.js",
   },
   {
@@ -31,7 +31,7 @@ export const Data = [
     name: "Next.js",
   },
   {
-    image: "icon-socket.png",
+    image: "socket.png",
     name: "Socket.io",
   },
   {
@@ -55,8 +55,8 @@ export const Data = [
     name: "Figma",
   },
   {
-    image: "icon-cypress.png",
-    name: "Cypress",
+    image: "cypress.png",
+    name: "ypress",
   },
   {
     image: "icon-storybook.png",

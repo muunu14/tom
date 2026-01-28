@@ -3,7 +3,7 @@ import { Icon } from "@/components/Icon";
 import { Two } from "@/components/Two";
 import { Skills } from "@/components/Skills";
 import { Upwork } from "@/components/Upwork";
-import { UbCabData } from "@/components/UbCabData";
+import { UbCab } from "@/components/UbCab";
 import { Last } from "@/components/Last";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
       <Two />
       <Skills />
       <Upwork />
-      <UbCabData />
+      <UbCab/>
       <Last />
     </div>
   );

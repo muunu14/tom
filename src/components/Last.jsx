@@ -4,7 +4,7 @@ export const Last = () => {
   return (
     <div className="w-full py-20 px-6 flex flex-col items-center  max-sm:h-[516px]">
       <div className="mb-4">
-        <div className="rounded-xl px-4 py-2 bg-gray-200 text-sm font-medium">
+        <div className="rounded-xl px-4 py-2 bg-stone-200 text-sm font-medium">
           Get in touch
         </div>
       </div>
@@ -17,13 +17,13 @@ export const Last = () => {
       <div className="flex items-center gap-3 mb-4">
         <img src="zhia.png" className="w-6" />
         <h1 className="text-3xl font-bold">tom@pinecone.mn</h1>
-        <img src="cono.png" className="w-6 cursor-pointer" />
+        <img src="icono.png" className="w-[34px] h-[34px]" />
       </div>
 
       <div className="flex items-center gap-3 mb-10">
         <img src="zhia.png" className="w-6" />
         <h1 className="text-3xl font-bold">+97688112233</h1>
-        <img src="icono.png" className="w-6 cursor-pointer" />
+<img className="w-[34px] h-[34px]" src="icono.png" alt="" />
       </div>
       <p className="text-gray-600 text-sm mb-3">
         You may also find me on these platforms!

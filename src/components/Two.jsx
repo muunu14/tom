@@ -5,7 +5,7 @@ export const Two = () => {
     <section className="w-full flex justify-center px-4 py-16 md:px-20">
       <div className="w-full  flex flex-col gap-12">
         <div className="flex justify-center">
-          <span className="px-5 py-1 text-sm font-medium rounded-xl bg-stone-300">
+          <span className="px-5 py-1 text-sm font-medium rounded-xl bg-stone-200">
             About me
           </span>
         </div>
