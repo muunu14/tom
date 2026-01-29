@@ -21,21 +21,21 @@ export const Upwork = () => {
             <div className="block md:hidden w-[146px] h-[24px] font-normal text-[16px]  justify-end ">
               Nov 2021 - Present
             </div>
-            <div className="w-[384px] h-[224px] flex flex-col gap-4 ">
-              <div className="h-[384px] h-[28px] font-semibold text-[20px]  ">
+            <div className=" h-[224px] flex flex-col gap-4 ">
+              <div className=" h-[28px] font-semibold text-[20px]  ">
                 Sr. Frontend Developer
               </div>
-              <div className="w-[384px] h-[180px] flex flex-col gap-1 max-sm:w-[279px] ">
-                <div className="w-[384px] h-[48px] font-normal text-[16px]  max-sm:w-[279px]">
+              <div className=" h-[180px] flex flex-col gap-1 max-sm:w-[279px] ">
+                <div className=" h-[48px] font-normal text-[16px]  max-sm:w-[279px]">
                   • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
-                <div className="w-[384px] h-[48px] font-normal text-[16px]  max-sm:w-[279px]">
+                <div className=" h-[48px] font-normal text-[16px]  max-sm:w-[279px]">
                   • Ut pretium arcu et massa semper, id fringilla leo semper.
                 </div>
-                <div className="w-[384px] h-[24px] font-normal text-[16px]  max-sm:w-[279px]">
+                <div className="h-[24px] font-normal text-[16px]  max-sm:w-[279px]">
                   • Sed quis justo ac magna.
                 </div>
-                <div className="w-[384px] h-[48px] font-normal text-[16px]  max-sm:w-[279px]">
+                <div className=" h-[48px] font-normal text-[16px]  max-sm:w-[279px]">
                   • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
               </div>
@@ -51,21 +51,21 @@ export const Upwork = () => {
             <div className=" block md:hidden w-[148px] h-[24px] font-normal text-[16px] ">
               Jul 2017 - Oct 2021
             </div>
-            <div className="w-[384px] h-[200px] flex flex-col gap-4 ">
+            <div className=" h-[200px] flex flex-col gap-4 ">
               <div className="h-[384px] h-[28px] font-semibold text-[20px]  ">
                 Team Lead
               </div>
-              <div className="w-[384px] h-[156px] flex flex-col gap-1 ">
-                <div className="w-[384px] h-[24px] font-normal text-[16px]  max-sm:w-[279px]">
+              <div className=" h-[156px] flex flex-col gap-1 ">
+                <div className=" h-[24px] font-normal text-[16px]  max-sm:w-[279px]">
                   • Sed quis justo ac magna.
                 </div>
-                <div className="w-[384px] h-[48px] font-normal text-[16px]  max-sm:w-[279px]">
+                <div className=" h-[48px] font-normal text-[16px]  max-sm:w-[279px]">
                   • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
-                <div className="w-[384px] h-[24px] font-normal text-[16px]  max-sm:w-[279px]">
+                <div className=" h-[24px]  font-normal text-[16px]  max-sm:w-[279px]">
                   • Sed quis justo ac magna.
                 </div>
-                <div className="w-[384px] h-[48px] font-normal text-[16px]  max-sm:w-[279px]">
+                <div className=" h-[48px] font-normal text-[16px]  max-sm:w-[279px]">
                   • Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </div>
               </div>
@@ -81,11 +81,11 @@ export const Upwork = () => {
             <div className=" block md:hidden w-[161px] h-[24px] font-normal text-[16px]  max-sm:w-[279px]">
               Dec 2015 - May 2017
             </div>
-            <div className="w-[384px] h-[116px] flex flex-col gap-4 ">
+            <div className=" h-[116px] flex flex-col gap-4 ">
               <div className="h-[384px] h-[28px] font-semibold text-[20px]  ">
                 Full Stack Developer
               </div>
-              <div className="w-[384px] h-[72px] font-normal text-[16px]  max-sm:w-[279px]">
+              <div className="mb-[120px]  font-normal text-[16px]  max-sm:w-[279px]">
                 • Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
                 ipsum dolor sit amet, consectetur adipiscing elit.
               </div>
