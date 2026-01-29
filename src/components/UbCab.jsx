@@ -46,7 +46,7 @@ export const UbCab = () => {
                     </span>
                   ))}
                 </div>
-                <img className="w-[24px] h-[24px]" src="/icon.png" alt="" />
+                <img className="w-[24px] h-[24px]" src="/Icon.png" alt="" />
               </div>
             </div>
           </div>
