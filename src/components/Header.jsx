@@ -15,7 +15,7 @@ export const Header = () => {
         </div>
       </div>
       <div className="hidden max-sm:flex">
-        <img src="/Icon Button.png" alt="" />
+        <img src="tseg.png" alt="" />
       </div>
     </div>
   );
