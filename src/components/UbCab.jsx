@@ -46,7 +46,7 @@ export const UbCab = () => {
                     </span>
                   ))}
                 </div>
-                <img className="w-[24px] h-[24px]" src="icon.png" alt="" />
+                <img className="w-[24px] h-[24px]" src="/icon.png" alt="" />
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ export const UbCab = () => {
                     </span>
                   ))}
                 </div>
-                <img className="w-[24px] h-[24px]" src="icon.png" alt="" />
+                <img className="w-[24px] h-[24px]" src="/icon.png" alt="" />
               </div>
               <img
                 src="122.png"
@@ -92,7 +92,11 @@ export const UbCab = () => {
           </div>
           <div className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 w-[1000px] h-[400px] max-sm:w-[350px] max-sm:h-[650px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-              <img src="2222.png" alt="iToim" className="w-[404px] rounded-lg" />
+              <img
+                src="2222.png"
+                alt="iToim"
+                className="w-[404px] rounded-lg"
+              />
               <div className="flex flex-col gap-4">
                 <h3 className="text-xl font-semibold">iToim</h3>
                 <p className="text-gray-600 text-sm">
@@ -122,7 +126,7 @@ export const UbCab = () => {
                     </span>
                   ))}
                 </div>
-                <img className="w-[24px] h-[24px]" src="icon.png" alt="" />
+                <img className="w-[24px] h-[24px]" src="/icon.png" alt="" />
               </div>
             </div>
           </div>
@@ -131,4 +135,3 @@ export const UbCab = () => {
     </div>
   );
 };
-
